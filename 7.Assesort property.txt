@@ -1,0 +1,19 @@
+/**
+ * You can edit, run, and share this code. 
+ * play.kotlinlang.org 
+ */
+
+interface InterfaceKu {
+    // Property dengan implementasi
+    val prop: Int
+    	get() =23
+}
+
+class ImplementasiInterface : InterfaceKu {
+    // class body
+}
+
+fun main(args: Array<String>){
+    val obj = ImplementasiInterface()
+    println(obj.prop)
+}
